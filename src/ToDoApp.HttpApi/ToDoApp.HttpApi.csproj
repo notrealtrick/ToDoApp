@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ToDoApp.Application.Contracts\ToDoApp.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ToDoApp.Application\ToDoApp.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

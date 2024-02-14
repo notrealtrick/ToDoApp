@@ -1,11 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using TodoApp;
-using ToDoApp;
 using TodoApp.Application;
 
-namespace TodoApp.HttpApi.Host.Controllers
+namespace ToDoApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

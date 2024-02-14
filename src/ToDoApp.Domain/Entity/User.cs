@@ -1,8 +1,9 @@
 using System;
+using Volo.Abp.Domain.Entities;
 
 namespace ToDoApp
 {
-    public class User
+    public class User : Entity<Guid>
     {
         public Guid Id { get; set; }
         public string UserName { get; set; }
